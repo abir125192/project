@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444;
+}
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 7px;
+  word-spacing: 5px;
+  font-family: "Laila", serif;
+}
+header p {
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: "Laila", serif;
+  text-transform: capitalize;
+  outline: 4px dotted #444;
+}
+.car-bg-container {
+  width: 95%;
+  height: 70vh;
+  margin: 20px auto;
+  background-attachment: fixed;
+  color: whitesmoke;
+  font-size: 3rem;
+  padding-top: 300px;
+  text-transform: uppercase;
+}
+.lamborghini {
+  background-image: url(./images/lamborghini.jpg);
+}
+
+.bmw {
+  background-image: url(./images/bmw.jpg);
+}
+.supra {
+  background-image: url(./images/supra.jpg);
+}
+.car-details h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  background: #44444425;
+  border-radius: 5px;
+  color: #f6b83c;
+}
+.bmw-text h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  background: #44444425;
+  border-radius: 5px;
+  color: rgb(126, 156, 243);
+}
+.supra-text h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  background: #44444425;
+  border-radius: 5px;
+  color: rgb(68, 73, 88);
+}
+.car-details p {
+  text-align: justify;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  word-spacing: 2.5px;
+  margin: 25px;
+}
+.car-details a {
+  text-decoration: none;
+  display: inline-block;
+  background: #f6b83c;
+  margin: 25px 25px;
+  padding: 7px 10px;
+  font-weight: bold;
+  color: aliceblue;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.car-details a:hover {
+  background: #ffc34a7b;
+  color: rgba(65, 105, 225, 0.471);
+}
+.car-details a:active {
+  color: royalblue;
+  background: rgba(107, 132, 208, 0.301);
+}
+
+footer {
+  text-align: center;
+}
