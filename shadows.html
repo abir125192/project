@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shadows</title>
+    <style>
+      body {
+        background-color: rgb(0, 174, 214);
+      }
+      .box-1 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(0, 174, 125);
+        margin: 100px auto;
+        box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+      .box-2 {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        background-color: rgb(0, 174, 214);
+        margin: 100px auto;
+        box-shadow: inset 5px 5px 10px 3px rgb(3, 209, 255),
+          inset -5px -5px 10px 3px rgb(0, 125, 153);
+      }
+      .box-3 {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        background-color: rgb(0, 174, 214);
+        margin: 100px auto;
+        box-shadow: 5px 5px 10px 3px rgb(3, 209, 255),
+          -5px -5px 10px 3px rgb(0, 125, 153);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+    <div class="box-3"></div>
+  </body>
+</html>

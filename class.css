@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: aliceblue;
+  font-family: "Poppins", sans-serif;
+  color: #444;
+}
+table {
+  background-color: white;
+  border-collapse: collapse;
+  margin: 100px auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(187, 222, 255), -2px -2px 10px rgb(226, 226, 226);
+}
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.286);
+  cursor: pointer;
+}
+thead th {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+tbody tr:nth-child(odd) {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+tbody td:nth-child(3) {
+  text-align: center;
+}
+tbody td:nth-child(4) {
+  text-align: right;
+}
+tbody td:nth-child(5) {
+  text-align: center;
+}
+
+th,
+td {
+  padding: 20px;
+}
+tr td:first-child {
+  color: rgb(11, 11, 240);
+  font-weight: 500;
+}
+tr td:last-child {
+  background: rgba(85, 255, 0, 0.392);
+  padding: 8px 10px;
+  display: inline-block;
+  margin: 10px 10px;
+  border-radius: 3px;
+}
+.shipped td:last-child {
+  background: rgba(0, 234, 255, 0.31);
+  padding: 8px 10px;
+  display: inline-block;
+  margin: 10px 10px;
+  border-radius: 3px;
+}
+.dispached td:last-child {
+  background: rgb(255, 191, 0);
+  padding: 8px 10px;
+  display: inline-block;
+  margin: 10px 10px;
+  border-radius: 3px;
+}
+.not-received td:last-child {
+  background: rgba(255, 81, 0, 0.43);
+  padding: 8px 10px;
+  display: inline-block;
+  margin: 10px 10px;
+  border-radius: 3px;
+}
